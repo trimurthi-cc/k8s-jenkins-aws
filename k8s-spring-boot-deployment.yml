@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: rahulwagh17/jhooq-docker-demo:jhooq-docker-demo
+          image: trimios/trimios-docker-demo:trimios-docker-demo
           ports:
             - containerPort: 8080
           env:
