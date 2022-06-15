@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: trimios/trimios-docker-demo:trimios-docker-demo
+          image: trimios/careerit-docker-demo:careerit-docker-demo
           ports:
             - containerPort: 8080
           env:
